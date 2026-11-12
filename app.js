@@ -27,9 +27,9 @@ caja1.innerHTML += "<p> Parrafo con etiqueta p </p>"
 caja1.classList.add("aprobado");
 
 
-const bodega=[{nombre: "Producto 1", precio: 1200, cantidad: 10},
-              { nombre: "Producto 2", precio: 1500, cantidad: 0},
-              { nombre: "Producto 3", precio: 800, cantidad: 20}];
+const bodega=[{nombre: "Producto 1", precio: 1450, cantidad: 5},
+              { nombre: "Producto 2", precio: 1100, cantidad: 2},
+              { nombre: "Producto 3", precio: 900, cantidad: 50}];
 
 let caja = document.querySelector(".caja-vacia");
 
