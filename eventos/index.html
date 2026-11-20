@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Calificaciones</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+
+    <main class="contenedor">
+        <h1>Control de Calificaciones</h1>
+
+        <section class="panel-captura">
+            <h2>Registrar Estudiante</h2>
+
+            <div class="grupo-campo">
+                <p>Nombre del alumno:</p>
+                <input type="text" id="campo-nombre" placeholder="Nombre completo">
+            </div>
+
+            <div class="grupo-campo">
+                <p>Calificación Parcial 1:</p>
+                <input type="number" id="campo-parcial1" placeholder="Ej. 8.5">
+            </div>
+
+            <div class="grupo-campo">
+                <p>Calificación Parcial 2:</p>
+                <input type="number" id="campo-parcial2" placeholder="Ej. 9.0">
+            </div>
+
+            <div class="panel-botones">
+                <button id="boton-registrar">Registrar alumno</button>
+                <button id="boton-reiniciar">Borrar lista</button>
+            </div>
+        </section>
+
+        <section class="panel-resultados">
+            <h2>Lista de Alumnos</h2>
+            <div id="lista-tarjetas"></div>
+        </section>
+    </main>
+     <script src="app.js"></script>
+</body>
+</html>
